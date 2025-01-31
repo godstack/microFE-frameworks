@@ -9,6 +9,7 @@ const generateClassName = createGenerateClassName({
 });
 
 const App = ({ history }) => {
+    console.log('app auth');
     return (
         <div>
             <StylesProvider generateClassName={generateClassName}>
